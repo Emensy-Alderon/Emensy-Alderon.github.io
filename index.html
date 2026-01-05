@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Alde uei!</title>
+  <style>
+    /* Stile base per tutto il corpo */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    /* Schermata di benvenuto */
+    .welcome {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: rgba(0,0,0,0.5);
+      animation: fadeIn 1.5s ease;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+
+    p {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+
+    /* Bottone centrale */
+    button {
+      padding: 20px 60px;
+      font-size: 24px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      background-color: #ffffff;
+      color: #2575fc;
+      font-weight: bold;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    /* Animazione fade-in */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="welcome">
+    <h1>Em ueietas tu! Afy van evretas emy Jitaby son!</h1>
+    <p>Ins ostos, tu povetas edzonet Timus.txt</p>
+    <button onclick="window.location.href='Timus.txt'">Apri</button>
+  </div>
+
+</body>
+</html>
