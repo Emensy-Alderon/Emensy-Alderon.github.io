@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -15,23 +16,30 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: linear-gradient(135deg, #6a11cb, #2575fc);
       color: white;
       text-align: center;
-      gap: 20px;
+    }
+
+    .welcome {
+      background-color: rgba(0,0,0,0.5);
+      padding: 40px;
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     h1 {
       font-size: 36px;
-      margin: 0;
+      margin-bottom: 20px;
       text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
     }
 
     p {
       font-size: 18px;
-      margin: 0;
+      margin-bottom: 20px;
     }
 
     button {
@@ -59,42 +67,35 @@
       border: none;
       margin-right: 10px;
       width: 200px;
-      background-color: rgba(0,0,0,0.5); /* colore riquadro interno */
-      color: white;
     }
 
     .display-text {
+      margin-top: 20px;
       font-family: 'Timus';
-      color: rgba(0,0,0,0.5); /* colore riquadro interno */
+      color: white;
       font-size: 100px; /* Dimensione iniziale */
       white-space: pre-wrap;
-    }
-
-    .font-controls {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      flex-wrap: wrap;
     }
   </style>
 </head>
 <body>
 
-  <h1>Em ueietas tu! Afy van evretas em-y son fo Gitab (GitHub)!</h1>
-  <p>Ins ostos, tu povetas edzonet Timus.txt</p>
-  <button onclick="window.location.href='Timus.txt'">Edzonet</button>
+  <div class="welcome">
+    <h1>Em ueietas tu! Afy van evretas em-y son fo Gitab (GitHub)!</h1>
+    <p>Ins ostos, tu povetas edzonet Timus.txt</p>
+    <button onclick="window.location.href='Timus.txt'">Edzonet</button>
 
-  <!-- Casella di testo e selettore font -->
-  <div class="font-controls">
-    <input type="text" id="userInput" placeholder="Scrivi qui..." oninput="updateText()" value='"Timus'>
-    <button onclick="changeFontSize(-4)">-</button>
-    <span id="fontSizeDisplay">100</span>px
-    <button onclick="changeFontSize(4)">+</button>
+    <!-- Casella di testo e selettore font -->
+    <div style="margin-top: 20px; display: flex; align-items: center;">
+      <input type="text" id="userInput" placeholder="Scrivi qui..." oninput="updateText()" value="'Timus">
+      <button onclick="changeFontSize(-4)">-</button>
+      <span id="fontSizeDisplay">100</span>px
+      <button onclick="changeFontSize(4)">+</button>
+    </div>
+
+    <!-- Testo dinamico -->
+    <div class="display-text" id="displayText">'Timus</div>
   </div>
-
-  <!-- Testo dinamico -->
-  <div class="display-text" id="displayText">"Timus</div>
 
   <script>
     let fontSize = 100; // dimensione iniziale
