@@ -59,11 +59,13 @@
       border: none;
       margin-right: 10px;
       width: 200px;
+      background-color: rgba(0,0,0,0.5); /* colore riquadro interno */
+      color: white;
     }
 
     .display-text {
       font-family: 'Timus';
-      color: white;
+      color: rgba(0,0,0,0.5); /* colore riquadro interno */
       font-size: 100px; /* Dimensione iniziale */
       white-space: pre-wrap;
     }
@@ -85,14 +87,14 @@
 
   <!-- Casella di testo e selettore font -->
   <div class="font-controls">
-    <input type="text" id="userInput" placeholder="Scrivi qui..." oninput="updateText()" value=""Timus">
+    <input type="text" id="userInput" placeholder="Scrivi qui..." oninput="updateText()" value='"Timus'>
     <button onclick="changeFontSize(-4)">-</button>
     <span id="fontSizeDisplay">100</span>px
     <button onclick="changeFontSize(4)">+</button>
   </div>
 
   <!-- Testo dinamico -->
-  <div class="display-text" id="displayText">'Timus</div>
+  <div class="display-text" id="displayText">"Timus</div>
 
   <script>
     let fontSize = 100; // dimensione iniziale
