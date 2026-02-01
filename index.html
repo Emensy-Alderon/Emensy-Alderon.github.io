@@ -1,9 +1,9 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
   <title>Alde uei!</title>
+
   <style>
     @font-face {
       font-family: 'Timus';
@@ -17,15 +17,16 @@
       justify-content: center;
       align-items: center;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
+
+      /* Sfondo uguale al vecchio riquadro */
+      background-color: rgba(0, 0, 0, 0.5);
+
       color: white;
       text-align: center;
     }
 
     .welcome {
-      background-color: rgba(0,0,0,0.5);
       padding: 40px;
-      border-radius: 20px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -69,47 +70,65 @@
       width: 200px;
     }
 
+    .controls {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+    }
+
     .display-text {
       margin-top: 20px;
       font-family: 'Timus';
-      color: white;
-      font-size: 100px; /* Dimensione iniziale */
+      font-size: 100px;
       white-space: pre-wrap;
+      color: white;
     }
   </style>
 </head>
+
 <body>
 
   <div class="welcome">
     <h1>Em ueietas tu! Afy van evretas em-y son fo Gitab (GitHub)!</h1>
     <p>Ins ostos, tu povetas edzonet Timus.txt</p>
-    <button onclick="window.location.href='Timus.txt'">Edzonet</button>
 
-    <!-- Casella di testo e selettore font -->
-    <div style="margin-top: 20px; display: flex; align-items: center;">
-      <input type="text" id="userInput" placeholder="Scrivi qui..." oninput="updateText()" value="'Timus">
+    <button onclick="window.location.href='Timus.txt'">
+      Edzonet
+    </button>
+
+    <div class="controls">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Scrivi qui..."
+        oninput="updateText()"
+      >
+
       <button onclick="changeFontSize(-4)">-</button>
       <span id="fontSizeDisplay">100</span>px
       <button onclick="changeFontSize(4)">+</button>
     </div>
 
-    <!-- Testo dinamico -->
-    <div class="display-text" id="displayText">"Timus</div>
+    <div class="display-text" id="displayText"></div>
   </div>
 
   <script>
-    let fontSize = 100; // dimensione iniziale
+    let fontSize = 100;
 
     function updateText() {
       const text = document.getElementById('userInput').value;
-      document.getElementById('displayText').textContent = text;
-      document.getElementById('displayText').style.fontSize = fontSize + 'px';
+      const display = document.getElementById('displayText');
+
+      display.textContent = text;
+      display.style.fontSize = fontSize + 'px';
     }
 
     function changeFontSize(delta) {
       fontSize += delta;
+
       if (fontSize < 10) fontSize = 10;
       if (fontSize > 1000) fontSize = 1000;
+
       document.getElementById('displayText').style.fontSize = fontSize + 'px';
       document.getElementById('fontSizeDisplay').textContent = fontSize;
     }
