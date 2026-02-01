@@ -72,7 +72,7 @@
       margin-top: 20px;
       font-family: 'Timus';
       color: white;
-      font-size: 24px;
+      font-size: 100px;
       white-space: pre-wrap;
     }
   </style>
@@ -87,28 +87,30 @@
     <!-- Casella di testo e selettore font -->
     <div style="margin-top: 20px; display: flex; align-items: center;">
       <input type="text" id="userInput" placeholder="Scrivi qui..." oninput="updateText()">
-      <button onclick="changeFontSize(-2)">-</button>
-      <span id="fontSizeDisplay">24</span>px
-      <button onclick="changeFontSize(2)">+</button>
+      <button onclick="changeFontSize(-4)">-</button>
+      <span id="fontSizeDisplay">100</span>px
+      <button onclick="changeFontSize(4)">+</button>
     </div>
 
     <!-- Testo dinamico -->
-    <div class="display-text" id="displayText"></div>
+    <div class="display-text" id="displayText">Timus</div>
   </div>
 
   <script>
-    let fontSize = 24;
+    let fontSize = 100; // dimensione iniziale
+    const minFont = 10;
+    const maxFont = 1000;
 
     function updateText() {
-      const text = document.getElementById('userInput').value;
+      const text = document.getElementById('userInput').value || ""Timus";
       document.getElementById('displayText').textContent = text;
       document.getElementById('displayText').style.fontSize = fontSize + 'px';
     }
 
     function changeFontSize(delta) {
       fontSize += delta;
-      if (fontSize < 10) fontSize = 10;
-      if (fontSize > 100) fontSize = 100;
+      if (fontSize < minFont) fontSize = minFont;
+      if (fontSize > maxFont) fontSize = maxFont;
       document.getElementById('displayText').style.fontSize = fontSize + 'px';
       document.getElementById('fontSizeDisplay').textContent = fontSize;
     }
