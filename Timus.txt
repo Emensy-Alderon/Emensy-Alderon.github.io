@@ -1,1 +1,312 @@
-Ma buongiorno!
+Lingua Timus. 
+<An English version in presented below the Italian one.>
+
+
+
+INTRODUZIONE:
+Timus è una lingua minimalista, che conta una trentina di parole. Il suo obiettivo è quello di comunicare con dei concetti semplici, usando una logica comprensibile. Buon divertimento!
+
+
+
+
+FONETICA:
+Timus presenta quattro vocali e sette consonanti, e hanno un significato di base. Verrà rispettivamente illustrata la pronuncia, la trascrizione in caratteri latini e il significato di base. 
+
+Vocali
+/a/ - a - presente, concreto, certo
+/i/ - i - dettaglio, puntino
+/u/ - u - ampio, esteso
+/ə/ - e - astratto, neutro, generico 
+
+Consonanti
+/k/ - k - azione, evento, cosa accade
+/l/ - l - spazio, luogo
+/m/ - m - persona, agente, vivente, chi
+/n/ - n - tempo; struttura, ordine
+/p/ - p - stato, modo, qualità
+/s/ - s - <<significato grammaticale>>
+/t/ - t - entità, ogg. stabile, inanimato
+
+
+
+
+LE SILLABE DI SIGNIFICATO:
+Le vocali e le consonanti viste precedentemente si possono unire in sillabe, per formare i seguenti significati.
+
+ka - fare, agire, produrre,  avere a che fare 
+ki - percepire, vedere, pensare, ritenere.
+ku - cambiare, muovere, andare...
+ke - accadere (di evento)
+
+la - qua, in questo luogo
+li - dentro, vicino... 
+lu - fuori, lontano...
+le - spazio, luogo, direzione... 
+
+ma - io 
+mi - tu (interlocutore)
+mu - persona, lui/lei...
+me - mente, ψυκή, anima
+
+na - ora, adesso
+ni - prima, puntualità
+nu - dopo, futuro (ciò che viene dopo)
+ne - (ordine), durata...
+
+pa - buono, ok
+pi - lieve, debole (no in senso negativo)
+pu - intenso, forte
+pe - (qualità), modo, stato
+
+ta - cosa (concreta)
+ti - strumento
+tu - gruppo, insieme di oggetti, (collettività)
+te - materiale
+
+
+
+
+LA FORMAZIONE DELLE PAROLE:
+In Timus, le parole si formano disponendo le sillabe di significato in un certo ordine. Prendiamo quelle del nome della lingua: timu, rispettivamente “Strumento” e “persone”, quindi a seguire si indica una specifica rispetto al primo termine e così via (in linguistica, si identificano come specificatori). Quindi occhio all'ordine: 
+
+timu - strumento, persone > strumento per le persone.
+muti - persona, strumento > una persona che si sta usando come strumento.
+
+Attenzione!
+Non esagerare con le sillabe! Usarne il meno possibile, se il contesto lo permette. 
+
+
+
+
+LA CLASSIFICAZIONE DELLE PAROLE:
+In Timus abbiamo tre tipologie diverse di parole:
+
+- Entità
+Hanno la “s” alla fine e indicano una parola. Esempi: mas (io); tas (cosa)
+
+- Modificatori
+Sono senza la “s” e si posizionano sempre dopo l'entità, aggiungendo ad essa una informazione in più, che è necessaria alla frase. Esempi: mas pa (io buono); tas ma (cosa me > la mia cosa).
+
+- Particelle 
+Sono altre parole ancora: 
+ek - ecco, sì, ciao, così, allora, dunque. > Può essere utilizzato per qualsiasi cosa che necessiti di enfatizzazione o dichiarazione.
+el - e, anche, o, oppure
+em - domanda/dubbio (particella per le domande. Si usa anche per se … allora  > em … ek)
+en - negazione, no, non, nulla, zero
+ep - perché, motivazione, spiegazione
+et - ma, tuttavia (avversativa)
+
+
+
+
+
+LA FRASE:
+In Timus, ci sono al massimo tre posizioni in cui le entità possono prendere posizione. 
+
+3 posizioni: Soggetto, Oggetto, Verbo 
+mas tas kas. (Io cose faccio > io faccio delle cose)
+
+2 posizioni: Soggetto, Verbo (che sarebbe un oggetto verbizzato)
+mas tas. (Io cose > Io “coso”)
+
+1 posizione: può essere qualsiasi cosa, consigliato solo se il  contesto lo permette. 
+tas. (cosa)
+
+Come detto precedentemente, i modificatori si posizionano DOPO le entità. 
+Occhio agli esempi:
+mas pa tas kas. (io buono sto facendo cose).
+mas tas pa kas. (io sto facendo cose buone)
+mas tas kas pa. (io sto facendo bene le cose). 
+
+
+
+
+I COLORI:
+Vi sono solamente i colori primari:
+
+al - rosso
+il - giallo
+ul - blu
+
+Ad esempio, per "verde", sarà "iluls" o "ulils":
+
+
+
+
+I NUMERI:
+Vi sono solamente 1 (an), 2 (in), 5 (un). Per gli altri, fare come segue:
+
+1 - an
+2 - in
+3 - inan
+4 - inin
+5 - un
+6 - unan
+7 - unin
+8 - uninan
+9 - uninin
+10 - unun
+
+Dopo il 10, tutti i numeri seguenti si leggono una cifra dopo l'altra, da sinistra verso destra, usando "-" (trattino) per distinguerle:
+26 - in-unan
+
+
+
+
+
+
+
+
+
+
+<ENGLISH VERSION>
+Timus Lanuguage.
+
+
+
+INTRODUCTION:
+Timus is a minimalist language that contains about thirty words. Its goal is to communicate with simple concepts, using understandable logic. Have fun!
+
+
+
+
+PHONETICS:
+Timus has four vowels and seven consonants, and they have a basic meaning. The pronunciation, the transcription in Latin characters, and the basic meaning will be illustrated respectively.
+
+Vowels
+/a/ - a - present, concrete, certain
+/i/ - i - detail, small point
+/u/ - u - wide, extended
+/ə/ - e - abstract, neutral, generic
+
+Consonants
+/k/ - k - action, event, what happens
+/l/ - l - space, place
+/m/ - m - person, agent, living being, who
+/n/ - n - time; structure, order
+/p/ - p - state, mode, quality
+/s/ - s - <<grammatical meaning>>
+/t/ - t - entity, stable object, inanimate
+
+
+
+
+MEANING SYLLABLES:
+The vowels and consonants seen previously can be combined into syllables to form the following meanings.
+
+ka - to do, to act, to produce, to deal with
+ki - to perceive, to see, to think, to believe
+ku - to change, to move, to go...
+ke - to happen (event)
+
+la - here, in this place
+li - inside, near...
+lu - outside, far...
+le - space, place, direction...
+
+ma - I
+mi - you (interlocutor)
+mu - person, he/she...
+me - mind, psyche, soul
+
+na - now
+ni - before, punctuality
+nu - after, future (what comes after)
+ne - (order), duration...
+
+pa - good, ok
+pi - light, mild (not in a negative sense)
+pu - intense, strong
+pe - (quality), mode, state
+
+ta - thing (concrete)
+ti - instrument
+tu - group, set of objects, (collectivity)
+te - material
+
+
+
+
+WORD FORMATION:
+In Timus, words are formed by arranging the meaning syllables in a certain order. Let’s take those from the name of the language: timu, respectively “instrument” and “people”, then a specification is indicated with respect to the first term and so on (in linguistics, they are identified as specifiers). So pay attention to the order:
+
+timu - instrument, people > instrument for people.
+muti - person, instrument > a person who is being used as an instrument.
+
+Attention!
+Do not overuse syllables! Use as few as possible, if the context allows it.
+
+
+
+
+WORD CLASSIFICATION:
+In Timus we have three different types of words:
+
+- Entities
+They have the “s” at the end and indicate a word. Examples: mas (I); tas (thing)
+
+- Modifiers
+They are without the “s” and are always placed after the entity, adding additional information to it, which is necessary for the sentence. Examples: mas pa (I good); tas ma (thing me > my thing).
+
+- Particles
+They are other words:
+ek - here, yes, hello, so, then, thus. > It can be used for anything that requires emphasis or declaration.
+el - and, also, or, either
+em - question/doubt (particle for questions. It is also used for if … then > em … ek)
+en - negation, no, not, nothing, zero
+ep - because, motivation, explanation
+et - but, however (adversative)
+
+
+
+
+THE SENTENCE:
+In Timus, there are at most three positions in which entities can take position.
+
+3 positions: Subject, Object, Verb
+mas tas kas. (I things do > I do things)
+
+2 positions: Subject, Verb (which would be a verbalized object)
+mas tas. (I things > I “thing”)
+
+1 position: it can be anything, recommended only if the context allows it.
+tas. (thing)
+
+As stated previously, modifiers are placed AFTER entities.
+Pay attention to the examples:
+mas pa tas kas. (I good am doing things).
+mas tas pa kas. (I am doing good things)
+mas tas kas pa. (I am doing things well).
+
+
+
+
+COLORS:
+There are only the primary colors:
+
+al - red
+il - yellow
+ul - blue
+
+For example, for "green", it will be "iluls" or "ulils":
+
+
+
+
+NUMBERS:
+There are only 1 (an), 2 (in), 5 (un). For the others, do as follows:
+
+1 - an
+2 - in
+3 - inan
+4 - inin
+5 - un
+6 - unan
+7 - unin
+8 - uninan
+9 - uninin
+10 - unun
+
+After 10, all following numbers are read one digit after another, from left to right, using "-" (hyphen) to distinguish them:
+26 - in-unan
+
