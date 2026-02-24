@@ -153,6 +153,18 @@ Dopo il 10, tutti i numeri seguenti si leggono una cifra dopo l'altra, da sinist
 
 
 
+ESEMPI:
+ek! (Ciao!)
+ek! Mis empa? (Ciao! Tu ?bene? > Ciao! Come stai?)
+mas pa, ek. emmis? (Io bene, grazie. Tu?)
+mas pa, ek ek. (Io bene, grazie mille)
+et mas mus mi enkis. (Ma io non ricordo la tua persona > Tuttavia non ricordo il tuo nome)
+mas Talsu. Emmis? (Io Talsu. Tu?)
+mas Lule. (Io Lule)
+Mas kis 
+
+
+
 
 
 
