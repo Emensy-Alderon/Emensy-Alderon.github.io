@@ -69,11 +69,15 @@ te - materiale
 LA FORMAZIONE DELLE PAROLE:
 In Timus, le parole si formano disponendo le sillabe di significato in un certo ordine. Prendiamo quelle del nome della lingua: timu, rispettivamente “Strumento” e “persone”, quindi a seguire si indica una specifica rispetto al primo termine e così via (in linguistica, si identificano come specificatori). Quindi occhio all'ordine: 
 
-timu - strumento, persone > strumento per le persone.
-muti - persona, strumento > una persona che si sta usando come strumento.
+timu - strumento, persone 
+muti - persona, strumento 
 
 Attenzione!
 Non esagerare con le sillabe! Usarne il meno possibile, se il contesto lo permette. 
+
+Dopo aver disposto correttamente le sillabe di significato, per formare la parola, aggiungere una “s” alla fine.
+timus - strumento per le persone
+mutis - una persona che si sta usando come strumento
 
 
 
@@ -82,10 +86,12 @@ LA CLASSIFICAZIONE DELLE PAROLE:
 In Timus abbiamo tre tipologie diverse di parole:
 
 - Entità
-Hanno la “s” alla fine e indicano una parola. Esempi: mas (io); tas (cosa)
+Hanno la “s” alla fine e, come visto precedentemente, indicano una parola. 
+Esempi: mas (io); tas (cosa)
 
 - Modificatori
-Sono senza la “s” e si posizionano sempre dopo l'entità, aggiungendo ad essa una informazione in più, che è necessaria alla frase. Esempi: mas pa (io buono); tas ma (cosa me > la mia cosa).
+Sono senza la “s” e si posizionano sempre dopo l'entità, aggiungendo ad essa una informazione in più, che è necessaria alla frase. 
+Esempi: mas pa (io buono); tas ma (cosa me > la mia cosa).
 
 - Particelle 
 Sono altre parole ancora: 
@@ -101,7 +107,7 @@ et - ma, tuttavia (avversativa)
 
 
 LA FRASE:
-In Timus, ci sono al massimo tre posizioni in cui le entità possono prendere posizione. 
+In Timus, ci sono al massimo tre posizioni in cui le parole con la “s” (entità) possono prendere posizione:
 
 3 posizioni: Soggetto, Oggetto, Verbo 
 mas tas kas. (Io cose faccio > io faccio delle cose)
